@@ -1,0 +1,136 @@
+.background {
+background-color: aliceblue;
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 30px;
+padding: 3% 3% 5%;
+}
+
+.home {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1110px) {
+  .home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .home-background {
+    padding: 7% 7%;
+    background-color: aliceblue;
+  
+}
+}
+
+.content{
+  margin-top: 50px;
+}
+
+
+  .roomBox {
+    margin: 10px 10px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    
+  }
+
+  .roomBoxManage {
+    font-size: 1rem;
+    text-align: left;
+    align-items: center;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  }
+
+  .create {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 290px;
+  height: 300px;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .createForm {
+    display: inline-grid;
+    align-items: center;
+  justify-content: center;
+  height: 260px;
+  }
+
+  .delete-button{
+    margin: 2%;
+    position: relative;
+    right: 2%;
+  }
+
+  .inputs {
+   margin-bottom: 10px;
+  }
+
+  .fields {
+    color: red;
+    font-size: 1rem;
+  }
+
+  .updateButton {
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .button-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .footer {
+    position: absolute;
+    padding-top: 40px;
+    height: auto;
+    width: 100vw;
+  }
+
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  .copywright{
+  opacity: 0.4;
+  }
+
+  
